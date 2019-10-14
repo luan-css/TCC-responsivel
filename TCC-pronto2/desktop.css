@@ -1,0 +1,375 @@
+@media screen and (min-width: 800px){
+	.link{	
+	padding: 20px;
+	font-family: 'Arial';
+	font-size: 12pt;
+	color: #f4f4f9;	
+	display: inline-block;	
+	}
+	.func{
+	width:98%;
+	border: solid 3px black;
+	margin: auto;
+	margin-top:5px;
+	box-shadow: 6px 7px 3px #888888;
+	margin-bottom:25px;
+	background-color: white;
+	}
+	.tamanho1{
+	text-align: justify; 
+	text-indent: 30px;
+	font-size:20px;
+	margin:auto;
+	margin-top: 10px;
+	}
+	.historia{
+	width:98%;
+	height: auto;
+	border: 3px outset;
+	margin: auto;
+	padding-TOP: 139PX;	
+	}
+	.tudo{
+	width:100%;
+	height: 219px;
+	margin-top: -44px;
+	font-size:18px;
+	}
+	.tudom{
+	width:98%;
+    height: 694px;
+	border: 3px outset;
+	margin:auto;
+	margin-top:30px;
+	background-color: white;
+	}
+	.missao{	
+    width: 16%;
+    float: left;
+    margin-top: 74px;
+    margin-left: 30px;
+    height: 150px;
+	border:none;
+	}
+	.zaper{display:none;}
+	.ok {
+    width: 66%;
+    float: right;
+    margin-top: 82px;
+    height: 150px;
+    overflow: hidden;
+    margin-right: 60px;
+	}
+	.container{
+	width: 98%;
+    border: solid 2px black;
+    height: auto;
+    padding-bottom: 1222px;
+	box-shadow: 5px 5px 5px #888888;
+	}
+	.vamos2{
+	width: 57%;
+	border: 3px outset;
+	float:left ;
+	margin-top:15px;
+	margin-left: 30px;
+	MARGIN-BOTTOM: 50PX;
+	height: 360px;
+	background: URL("depil.jpeg") no-repeat;
+	background-size: 100% 100%;
+	border-radius: 7px;
+	}
+	.la2{
+	width:30%;
+	float: right;
+	border: 5px outset;
+	margin-top:90px;
+	height: auto;
+	overflow: hidden;
+	margin-right: 14px;
+	font-size:20px;
+	padding-TOP:10px;
+	}
+	.text{
+	margin-top:70px;
+	width:auto;
+	height:auto;
+	background:#FFF;
+	opacity:0;
+	}
+	.vamos2:hover .text{
+	opacity:0.6;
+	text-align:justify;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+	padding:30px;
+	} 
+	.vamos{width: 57%;
+	border: 3px outset;
+	float:left ;
+	margin-top:15px;
+	margin-left: 30px;
+	height: 360px;
+	background: URL("mao.jpg") no-repeat;
+	background-size: 100% 100%;
+	border-radius: 7px;
+	}
+	.text{
+	margin-top:70px;
+	width:auto;
+	height:auto;
+	background:#FFF;
+	opacity:0;
+	}
+	.vamos:hover .text{
+	opacity:0.6;
+	text-align:justify;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+	padding:30px;
+	}
+	.la{width:30%;
+	float: right;
+	border: 5px outset;
+	margin-top:90px;
+	height: auto;
+	overflow: hidden;
+	margin-right: 14px;
+	font-size:20px;
+	padding-TOP:10px;
+	}
+	.vamos1{width: 57%;
+	background: URL("cabelo.jpg") no-repeat;
+	background-size: 100% 100%;
+	border: 3px outset;
+	float:left ;
+	margin-top:30px;
+	margin-left: 30px;
+	height: 360px;
+	margin-bottom: 30px;
+	border-radius: 7px;
+	}
+	.la1{width:30%;
+	float: right;
+	border: 2px outset;
+	margin-top:70px;
+	height: AUTO;
+	overflow: hidden;
+	margin-right: 14px;
+	font-size:20px;
+	padding-TOP:10px;
+	}
+	.text1{
+	margin-top:70px;
+	width:auto;
+	height:auto;
+	background:#FFF;
+	opacity:0;
+	}
+	.vamos1:hover .text
+	{
+	opacity:0.6;
+	text-align:justify;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+	padding:30px;
+	}   
+	.rubens{text-align: center; padding-top: 44px;}/* TEXTO DENTRO DO RODAPÉ*/
+	footer{width: 100%; height: 100px; background-color: #000000; color: #fff; clear: both;margin-bottom: 0;}
+	.link:hover{
+	background-color: #050542;
+	}
+	nav{
+	width: 100%;
+	position: relative;
+	float: right;
+	padding-right: 3px;
+	}
+	header{
+	background-color: Black;
+	height: 60px;
+	position: fixed;
+	width:100%;
+	z-index: 1;
+	}
+	.sc{display: NONE}
+	.barra{display:none}
+	#icone{display: none}
+	li{
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+	padding-top: 20px;
+	display: inline-block; 
+	}
+	.logo{
+	display:none; /*Pocisão logo*/
+	}
+	li:hover {
+	padding: 11px;
+	transition: 0.5s linear;
+	background-color: black;
+	/*background-color: #ffffff;*/ /*cor quando o mouse sobrepõe o menu*/
+	}
+	.teste{
+	float: right;
+	font-family: "Arial";
+	display: inline-block;
+	padding-top: 5px;
+	padding-right: 15px;
+	}	
+	a{
+	text-decoration: none;/*Sem sublinhado*/
+	color: #FFF;	
+	}
+	#c-slider {
+	background-color: white; /*Cor do fundo do slide*/
+	padding-top: 64px;
+	margin: auto;
+	width: 85%;
+	position: flex;
+	overflow: hidden;
+	max-width: 82%;
+	margin-bottom: 23px;	
+	box-shadow: 10px 10px 5px #888888;
+	}
+	#slider {
+	display: flex;
+	width: 300%;
+    left: 10%;
+    right: 0;
+    margin: auto;
+	margin-top: -5px;
+	}
+	#slider section{
+	width: 100%;
+	}
+	#slider img{
+	display: block;
+	width: 100%;
+	height: 100%; 
+	}
+	#btn-prev, #btn-next {
+	width: 45px;
+	height: 45px;
+	background:rgba(255, 255, 255, 0.5);
+	position: absolute;
+	margin-top: -34%;
+	transform: translateY(-50%);
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 30px;
+	font-family: monospace;
+	cursor: pointer;
+	}
+	#btn-prev:hover, #btn-next:hover {
+	background:rgba(255, 255, 255, 1);
+	}
+	#btn-prev{
+	left: 227px;
+	}
+	#btn-next{
+	right: 227px;
+	}
+	.S1{display:none;}
+	.sorte{width: 100%;height:500px;margin:auto;padding-top:65px;padding-bottom:20px;} /* DIV PARA COLOCAR A DIV DE CONTATOS E DE LOCALIZAÇÃO*/
+	.contatos{width: 100%;height:500px;}	/* POSICIÇÃO DOS TITULOS DA DIV CONTATO E LOCALIZAÇÃO*/
+	.ola{background-color:black;font-size: 20px;font-weight: bold;margin:0px;padding: 5px;color: white;}/* NOME CONTATOS E LOCALIZAÇÃO*/
+	.S{height: auto; width: 30%;float: right;margin-right: 11%;padding: 0;margin-top:22px;}/* TAMANHO DO TITULO CONTATO*/
+	.tamanho{height: auto; width: 41%;background-color: WHITE;float: left;margin-left:11%;padding: 0;}/* TAMANHO DO TITULO LOCALIZAÇÃO*/
+	}
+	figure {
+	float: right;
+	width: 30%;
+	text-align: center;
+	font-size: smaller;
+	text-indent: 0;
+	border: thin silver solid;
+	margin: 0.5em;
+	padding: 0.5em; 
+	}
+	.servi{
+	width:98%;
+	margin:auto;
+	border:3px black solid;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #888888;
+	}
+	.redondo{
+	width: 42%;
+	height: 45%;
+	border: solid 1px black;
+	float: right;
+	border-radius: 50%;
+	padding-top: 0;
+	margin-top: 45px;
+	}
+	.nao{
+	border-radius:4px;
+	box-shadow: 10px 10px 5px #888888;
+	width:90%;
+	height: 400px;
+	border: solid 2px black;
+	float: left;
+	margin-top: 20px;
+	margin: auto;
+	margin-bottom: 30px;
+    margin-left: 4%;
+	box-shadow: 2px ;
+	}
+	.redondo1{display:none;
+	}
+	.mapa3{
+	margin: auto;
+    width: 90%;
+	}
+	.mapa{
+	margin-bottom: 81px;
+	margin-left:10%;
+	width:80%;
+	height:400px;	
+	}
+	.mapa1{display:none;}
+	form{
+	width: 100%;
+	margin:auto;
+	background: rgba(0,0,0,0.1);
+	opacity: 0.6;
+	padding: 18px 20px;
+	box-sizing: border-box;	
+	}
+	input, textarea{
+	width:100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border:none;
+	border:1px solid black;
+	}
+	textarea{
+	min-height:100px;
+	max-height:200px;
+	max-width: 100%;
+	min-width:100%;
+	}
+	#botao{
+	background: #3F51B5;
+	color: #fff;
+	padding:20px;
+	border: 2px solid black;
+	}
+	#botao:hover{
+	cursor: pointer;
+	background: black;
+	}
+	
+

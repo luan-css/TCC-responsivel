@@ -1,0 +1,325 @@
+	@media screen and (min-width: 481px) {
+	header{
+	background-color: Black;
+	height: 60px;
+	position: fixed;
+	width:100%;
+    z-index: 1;
+	}
+	#c-slider {
+	background-color: black; /*Cor do fundo do slide*/
+	padding-top: 64px;
+	margin: auto;
+	width: 99%;
+	max-width: 900px;
+	position: flex;
+	overflow: hidden;
+	margin-bottom: 18px;
+	}
+	.text{
+	margin-top:70px;
+	width:auto;
+	height:auto;
+	background:#FFF;
+	opacity:0;
+	}
+	.vamos:hover .text{
+	opacity:0.6;
+	text-align:justify;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+	padding:30px;
+	}
+	.zaper{display:none;}
+	.tamanho1{
+	text-align: justify; 
+	text-indent: 30px;
+	font-size:20px;
+	margin-top: 10px;
+	}
+	.historia{
+	width:98%;
+	height: auto;
+	border: solid 3px black;
+	margin: auto;
+	padding-TOP: 139PX;
+	margin-bottom:10px;
+	}
+	.tudo{
+	width:100%;
+	height: 268px;
+	}
+	.tudom{
+	font-size:16px;
+	width:98%;
+	padding-top: 95px;
+	height: 820px;
+	border: solid 3px black;
+	margin:auto;
+	}
+	.missao{
+    width: 30%;
+    float: left;
+    margin-top: 39px;
+    margin-left: 9px;
+    height: 157px;
+    border: none;
+	}
+	.ok{
+    width: 52%;
+    float: right;
+    margin-top: 1px;
+    height: 272px;
+    overflow: hidden;
+    margin-right: 60px;
+	}
+	.S1{display:none;}
+	#slider{
+	display: flex;
+	width: 300%;
+    left: 10%;
+    right: 0;
+    margin: auto;
+	}
+	#slider section{
+	width: 100%;
+	}
+	#slider img{
+	display: block;
+	width: 100%;
+	height: 100%; 
+	}
+	#btn-prev, #btn-next{
+	width: 45px;
+	height: 45px;
+	background:rgba(255, 255, 255, 0.5);
+	position: absolute;
+	margin-top: -33%;
+	transform: translateY(-50%);
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 30px;
+	font-family: monospace;
+	cursor: pointer;
+	}
+	#btn-prev:hover, #btn-next:hover{	
+	background:rgba(255, 255, 255, 1);
+	}
+	#btn-prev{
+	left: 100px;
+	}
+	#btn-next{
+	right: 100px;
+	}
+	.logo{
+	float: right; /*Pocisão logo*/
+    padding-right: 20px;
+    padding-top: 10px;
+	}
+	.container{
+	width: 98%;
+	margin: auto;
+	margin-top: 0px;
+    padding-top: 60px;
+    border: solid 2px black;
+    height: auto;
+	box-shadow: 5px 5px 5px #888888;
+	}
+	.vamos2{
+	width: 90%;
+	box-shadow: 10px 10px 5px #888888;
+	height: 360px;
+	margin-top:15px;
+	margin-left: 30px;
+	background: URL("depil.jpeg") no-repeat;
+	background-size: 100% 100%;
+	border-radius: 7px;
+	}
+	.la2{
+	width:90%;
+	height: AUTO;
+	border: 5px outset;
+	margin-top:37px;
+	margin-bottom:10px;
+	margin-left: 30px;
+	}
+	.text{
+	margin-top:70px;
+	width:auto;
+	height:auto;
+	background:#FFF;
+	opacity:0;
+	}
+	.vamos2:hover .text{
+	opacity:0.6;
+	text-align:justify;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+	padding:30px;
+	}
+	.vamos{
+	width: 90%;
+	box-shadow: 10px 10px 5px #888888;
+	height: 360px;
+	margin-top:15px;
+	background: URL("mao.jpg") no-repeat;
+	background-size: 100% 100%;
+	margin-left: 30px;
+	border-radius: 7px;
+	}
+	.la{
+	width:90%;
+	height: AUTO;
+	border: 5px outset;
+	margin-top:37px;
+	margin-bottom:10px;
+	margin-left: 30px;
+	}
+	.vamos1{
+	width: 90%;
+	box-shadow: 10px 10px 5px #888888;
+	height: 360px;
+	margin-top:15px;
+	margin-left: 30px;
+	background: URL("cabelo.jpg") no-repeat;
+	background-size: 100% 100%;
+	border-radius: 7px;
+	}
+	.la1{
+	width:90%;
+	height: auto;
+	border:  5px outset;
+	margin-top: 30px;
+	margin-left: 30px;
+	}
+	.text1{
+	margin-top:70px;
+	width:auto;
+	height:auto;
+	background:#FFF;
+	opacity:0;
+	}
+	.vamos1:hover .text{
+	opacity:0.6;
+	text-align:justify;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+	padding:30px;
+	}
+	.rubens{text-align: center; padding-top: 40px;}/* TEXTO DENTRO DO RODAPÉ*/
+	footer{width: 100%; height: 100px; background-color: #000000; color: #fff; clear: both;}
+	#check{
+	display: none;
+	background-color: black;
+	}
+	#icone{
+	cursor: pointer;
+	padding: 15px;
+	position: absolute;
+	z-index: 1;	
+	}
+	.barra{
+	background-color: #333;
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	transition: all .2s linear;
+	left:-300px;	
+	}
+	nav{
+	width: 100%;
+	position: relative;
+	top: 60px;	
+	}
+	nav a{
+	text-decoration: none;
+	}
+	.link{
+	background-color: #494950;
+	padding: 20px;
+	font-family: 'Arial';
+	font-size: 12pt;
+	transition: all .2s linear;
+	color: #f4f4f9;
+	border-bottom: 2px solid #222;
+	}
+	.link:hover{
+	background-color: #050542;
+	}
+	#check:checked ~ .barra{
+	transform: translateX(300px);
+	}
+	.sc{display:none}
+	.li{display:none}
+	.teste{display:none}
+	.nao{
+	border-radius:4px;
+	width:90%;
+	height: 400px;
+	border: solid 2px black;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin:auto;
+	margin-bottom: 30px;
+	}
+	.sei{
+	border-radius:4px;
+	box-shadow: 10px 10px 5px #888888;
+	width:90%;
+	height: 400px;
+	border: solid 2px black;
+	float:left;
+	margin-top: 40px;
+	margin-left: 4%;
+	margin-bottom: 40px;
+	}
+	form{
+	width: 100%;
+	margin:auto;
+	background: rgba(0,0,0,0.8);
+	padding: 18px 20px;
+	box-sizing: border-box;
+	}
+	h2{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size:30px;
+	margin-bottom: 28px;
+	}
+	input, textarea{
+	width:100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border:none;
+	}
+	textarea{
+	min-height:100px;
+	max-height:200px;
+	max-width: 100%;
+	min-width:100%;
+	}
+	#botao{
+	background:31384A;
+	color: #fff;
+	padding:20px
+	}
+	#botao:hover{
+	cursor: pointer;
+	}
+	.mapa1{display:none;}
+	.tamanho{height:auto;width: 90% auto;margin-left:40px;margin-bottom: 25px;margin-top: 25px;}
+	.ola{background-color:black;font-size: 20px;font-weight: bold;margin:0px;padding: 5px;color: white;}
+	.S{height:400px;width: 90%;margin-left:40px;margin-bottom: 25px;margin-top: 0px;PADDING-TOP: 59PX;}
+	}

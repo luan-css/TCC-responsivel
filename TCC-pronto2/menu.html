@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Studio Gata</title>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="a.png" type="image/x-png"/>
+	<link rel="stylesheet" type="text/css" href="tablet.css">
+	<link rel="stylesheet" type="text/css" href="desktop.css">
+	<link rel="stylesheet" type="text/css" href="celular.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	
+	body{ 
+		background-color: white;
+	}
+	.container1{
+	box-shadow: 5px 5px 5px #888888;
+	border: solid 2px black;
+	width: 98%;
+	margin-bottom: 17px;
+	margin: auto;}
+	</style>
+  </head>
+  <body>
+  <header>
+	<div>
+		<a href="menu.html"><img src="play.png" class="play"  title="menu" style="height: 60px; width: 60px; margin-left: 68px; position: absolute;"/></a>
+	</div>
+			<div class="logo">
+				<h1 style="color: white;font-family: Berlin Sans FB Demi;">S T U D I O  G A T A</h1>
+			</div>
+		<p class="sc" style="position: fixed; margin-left: 200px;color: white;font-size: 20px;font-family: 'arial';margin-top: 15px;">minha web namorada me traiu denovo</p>
+		<input type="checkbox" id="check">
+			<label id="icone" for="check"><img src="icone.png"></label>
+	
+	<div class="barra">
+	<div>
+	<img src="play.png" style="height: 70px; width: 100px; margin-left: 100px; position: fixed;"/>
+	</div>
+	<nav>
+		<a href="menu.html"><div class="link">INICIO</div></a>
+		<a href="sobre.html"><div class="link">SOBRE NÓS</div></a>
+		<a href="servico.html"><div class="link">SERVIÇOS</div></a>	
+		<a href="contatos.html"><div class="link">CONTATOS</div></a>
+	</nav>
+	</div>
+	<div class="teste">
+		<ul>
+			<li><a href="menu.html" class="menu">INICIO</a></li>
+			<li><a href="sobre.html" class="menu">SOBRE NÓS</a></li>
+			<li><a href="servico.html" class="menu">SERVIÇOS</a></li>
+			<li><a href="contatos.html"class="menu">CONTATO</a></li>
+		</ul>
+	</div>
+	</header>
+	<div class="container1">
+	<div id="c-slider"  style="border: solid 1px black;">
+	<div id="slider">
+			<section><a href="servico.html" target=""><img src="clinica.jpg" alt=""></a></section>
+			<section><a href="sobre.html" ><img src="MASS.jpg" alt=""></a></section>
+			<section><a href="contatos.html"><img src="gui.png" alt=""></a></section>	
+	</div>
+	<div id="btn-prev">&#60;</div>
+	<div id="btn-next">&#62;</div>
+	</div>
+	<script src="slider.js">
+	</script>
+		<b style="text-align:center;font-size:30px;font-family:Courier;"><figcaption>Promoção do Mes</figcaption></b>
+		<div class="nao">
+		<img src="mas.jpg" style="width:100%; height:100%; "/>
+		</div>
+		<b style="text-align:center;font-size:30px;font-family:Courier;"><figcaption>Tratamento facial</figcaption></b>
+		<div class="sei">
+		<img src="a3.png" style="width:100%; height:100%;"/>
+		</div>
+	<div class="mapa3">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d628.7946862322722!2d-46.826673958283905!3d-23.416132503951122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf1d57b819977f%3A0x120e7dd795ba2f18!2sRua+Ant%C3%B4nio+Carlos+Paiva+Camelo!5e0!3m2!1spt-BR!2sbr!4v1511314653169" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	</div>
+	<footer style="margin-top: 26px;">
+		<figure>
+			<img src="cell.png" title="Agende sua consulta" style="position: relative;width: 40px; height: 40px;">
+				<figcaption style="color: white">Agende sua consulta<br/>(11)97665-3008</figcaption>
+		</figure>
+		<p class="rubens">Copyright © 2017 | A GATA </P>	
+	</footer>
+  </body>
+</html>
